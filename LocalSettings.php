@@ -56,6 +56,11 @@ $wgDBserver = "bb294426-002.eu.clouddb.ovh.net:35652";
 $wgDBname = "preprod";
 $wgDBuser = "wiki";
 $wgDBpassword = "Bitcoinwiki35450";
+$wgSharedDB = "preprod";
+$wgSharedTables[] = "user_groups";
+$wgSharedTables[] = "user";
+$wgSharedTables[] = "ipblocks";
+$wgSharedTables[] = "interwiki";
 
 # MySQL specific settings
 $wgDBprefix = "my_preprod";
